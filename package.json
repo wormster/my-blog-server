@@ -1,0 +1,25 @@
+{
+  "name": "my-blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --exec npx babel-node src/server.js"
+  },
+  "keywords": [],
+  "author": "J S Wormald",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.19"
+  }
+}
